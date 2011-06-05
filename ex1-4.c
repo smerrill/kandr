@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-/* print Celsius-Fahrenheit table for fahr = 0, 20, ..., 300 */
+/* print Celsius-Fahrenheit table for celsius = 0, 20, ..., 300 */
 
 main()
 {
   int fahr, celsius;
   int lower, upper, step;
-
 
   lower = 0; /* lower limit of temperature scale */ 
   upper = 300; /* upper limit */
